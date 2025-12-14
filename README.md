@@ -18,7 +18,7 @@ The pipeline consists of four main stages:
     - **High Priority:** Sent to Google Gemini (LLM) for analysis.
     - **Alerting:** Formatted message sent to Slack with recommendations.
 
-![n8n Workflow Canvas](images/1-Workflow-Architecture.png)
+![n8n Workflow Canvas](1-Workflow-Architecture.png)
 
 ---
 
@@ -51,7 +51,7 @@ Integrated Google Gemini to act as a Tier 1 Analyst.
 - **Prompt Engineering:** Designed a strict prompt to force "SOC Analyst" style output (Headers, Analysis, Recommendations).
 - **Output:** Clean Markdown summaries sent to Slack.
 
-  ![AI Analysis Logic](4-AI-Analysis-Logic.png)
+  ![AI Analysis Logic](4-AI-Analysis-ProcessInjection.png)
 
 ### 3. Attack Simulations
 
